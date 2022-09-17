@@ -143,14 +143,8 @@ body {
   fill: var(--accent-color);
 }
 .contact-icon {
-  fill: var(--secondary-text-color) ;
   margin-right: 10px;
 }
-.contact-icon:hover,
-.contact-icon:focus {
-  fill: var(--accent-color) ;
-}
- 
 .border {
   border-bottom: 1px solid var(--border-bottom-header);
 }
