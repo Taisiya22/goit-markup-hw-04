@@ -307,11 +307,15 @@ body {
   justify-content: center;
   gap: 10px;
   margin-top: 16px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
-.social-link {
+.social-list-item {
   width: 44px;
   height: 44px;
+}
+.social-link {
+  width: 100%;
+  height: 100%;
   background-color: var(--team-list-background-color);
   border-radius: 50%;
   display: flex;
@@ -331,17 +335,23 @@ body {
   justify-content: center;
   gap: 30px;
 }
-.clients-icon {
-  display: block;
+.clients-item {
+width: 170px;
+height: 92px;
+}
+.clients-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  width: 170px;
-  height: 92px;
-  background-color: var(--primary-background-color);
+  width: 100%;
+  height: 100%;
+  /* background-color: var(--primary-background-color); */
   fill: var(--fill-svg-color);
 }
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-icon-link:hover,
+.clients-icon-link:focus {
   fill: var(--accent-color);
   background-color: var(--team-list-background-color);
   border: 1px solid var(--accent-color);
@@ -392,6 +402,7 @@ body {
 }
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 .footer-social {
   margin-left: 70px;
@@ -404,7 +415,6 @@ body {
   margin-top: 20px;
 }
 .footer-title {
-padding-top: 12px;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -412,21 +422,27 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--white-text-color)
 }
-.footer-social-link {
+.footer-social-item {
   width: 44px;
-    height: 44px;
+  height: 44px;
+}
+.footer-social-link {
+  width: 100%;
+    height: 100%;
     background-color: rgba(255, 255, 255, 0.1);;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    fill: var(--white-text-color);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color:var(--accent-color) ;
+  
 }
 .footer-icon {
-  fill:var(--white-text-color);
+  
 }
 /* portfolio */
 .portfolio {
