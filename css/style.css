@@ -317,18 +317,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: var(--fill-svg-color);
 }
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
-}
-.team-icon {
-  fill: var(--fill-svg-color);
-}
-.team-icon:hover,
-.team-icon:focus {
   fill: var(--white-text-color);
 }
+
 /* постійні клієнти */
 .clients-list {
   display: flex;
