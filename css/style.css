@@ -155,7 +155,7 @@ body {
 .hero {
   padding: 200px 0;
   text-align: center;
-  background-color: var(--overlay-background-color);
+  
 }
 .hero-title {
   max-width: 696px;
@@ -197,6 +197,9 @@ body {
 .hero-btn:active {
   background-color: var(--hover-hero-button);
   color: var(--white-text-color);
+}
+.overlay {
+background-color: var(--overlay-background-color);
 }
 .overlay {
   max-width: 1600px;
