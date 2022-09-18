@@ -357,7 +357,7 @@ height: 92px;
 .clients-icon-link:hover,
 .clients-icon-link:focus {
   fill: var(--accent-color);
-  background-color: var(--team-list-background-color);
+  /* background-color: var(--team-list-background-color); */
   border: 1px solid var(--accent-color);
 }
 /* footer */
