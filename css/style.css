@@ -83,7 +83,8 @@ body {
   color: var(--accent-color);
 }
 .logo-web {
-  padding: 25px 0px;
+  padding-top: 25px;
+  padding-bottom: 24px;
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -207,8 +208,8 @@ body {
   margin-left: auto ;
   margin-right: auto;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../images/hero.jpg);
-    background-position: 100%;
-    background-size: cover;
+    background-position: center;
+    
     background-color: var(--overlay-background-color);
     
 }
@@ -507,10 +508,12 @@ color: var(--white-text-color)
       0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-title {
+  color: var(--primary-text-color);
   margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-decoration: none;
 }
 .portfolio-description {
   color: var(--secondary-text-color);
